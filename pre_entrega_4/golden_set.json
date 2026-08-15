@@ -1,0 +1,22 @@
+[
+    {
+        "pregunta": "Que es un patron de diseño?",
+        "documento_id_esperado": "patrones.md"
+    },
+    {
+        "pregunta": "Que problema resuelve el patron Strategy?",
+        "documento_id_esperado": "patrones.md"
+    },
+    {
+        "pregunta": "Que es un Incremento de Producto en Scrum?",
+        "documento_id_esperado": "metodologias_agiles.md"
+    },
+    {
+        "pregunta": "Que significa Definition of Done?",
+        "documento_id_esperado": "metodologias_agiles.md"
+    },
+    {
+        "pregunta": "Que es la arquitectura de software?",
+        "documento_id_esperado": "arquitectura.md"
+    }
+]

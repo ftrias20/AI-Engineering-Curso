@@ -1,0 +1,10 @@
+pinecone
+langchain-openai
+langchain-pinecone
+langchain-text-splitters
+langchain-community
+langchain-classic
+rank-bm25
+python-dotenv
+tiktoken
+openai
