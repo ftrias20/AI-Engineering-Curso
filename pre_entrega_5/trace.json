@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "usuario",
+        "contenido": "El sistema muestra el error POS-204. Decime que significa y como tengo que resolverlo."
+    },
+    {
+        "tipo": "tool_call",
+        "herramienta": "buscar_incidente",
+        "parametros": {
+            "codigo_error": "POS-204"
+        }
+    },
+    {
+        "tipo": "tool_result",
+        "contenido": "{\"codigo\": \"POS-204\", \"descripcion\": \"Perdida de comunicacion con la terminal de pago\", \"categoria\": \"comunicaciones\", \"procedimiento_id\": \"PROC-07\"}"
+    },
+    {
+        "tipo": "tool_call",
+        "herramienta": "obtener_procedimiento",
+        "parametros": {
+            "procedimiento_id": "PROC-07"
+        }
+    },
+    {
+        "tipo": "tool_result",
+        "contenido": "{\"procedimiento_id\": \"PROC-07\", \"titulo\": \"Restablecer comunicacion con terminal\", \"pasos\": [\"Verificar conectividad de red\", \"Validar que la terminal este disponible\", \"Reiniciar la conexion con el dispositivo\"]}"
+    },
+    {
+        "tipo": "respuesta",
+        "contenido": "El error **POS-204** significa \"Pérdida de comunicación con la terminal de pago\". Este error pertenece a la categoría de **comunicaciones**.\n\nPara resolverlo, puedes seguir estos pasos del procedimiento \"Restablecer comunicación con terminal\":\n\n1. Verificar conectividad de red.\n2. Validar que la terminal esté disponible.\n3. Reiniciar la conexión con el dispositivo.\n\nSi necesitas más ayuda, no dudes en preguntar."
+    }
+]

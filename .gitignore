@@ -2,3 +2,4 @@
 .venv/
 __pycache__/
 pre_entrega_3/vectorstore/
+pre_entrega_5/agent_memory.db
